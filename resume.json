@@ -1,84 +1,161 @@
 {
-  "basics": {
-    "name": "Greg Carlin",
-    "label": "Software Developer",
-    "picture": "",
-    "email": "gregory_carlin@brown.edu",
-    "phone": "(914) 325-3213",
+  "name": "Greg Carlin",
+
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.4.0"
+  },
+
+  "info": {
+    "label": "Computer Science Student",
+    "characterClass": "Programmer",
+    "brief": "",
+    "image": "",
+    "quote": ""
+  },
+
+  "contact": {
     "website": "http://gregcarl.in",
-    "summary": "",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "US",
-      "region": ""
+    "phone": "(914) 325-3213",
+    "email": "gregory_carlin@brown.edu",
+    "other": []
+  },
+
+  "location": {
+    "address": "",
+    "city": "",
+    "region": "",
+    "code": "",
+    "country": "US"
+  },
+
+  "projects": [
+    {
+      "title": "airDrive",
+      "role": "developer",
+      "url": "https://github.com/gregcarlin/airdrive",
+      "start": "2016-06",
+      "end": "2016-08",
+      "repo": "https://github.com/gregcarlin/airdrive",
+      "summary": "Built proof-of-concept cloud storage website that combined the usability of Dropbox with the security of file sharding and end-to-end encryption.",
+      "highlights": [
+        "Participated in Breakthrough-Lab, a summer entrepreneurship program at Brown University.",
+        "Buit a secure yet easy to use cloud storage solution for conusmers.",
+        "Files were sharded across a network of users machines."
+      ],
+      "keywords": ["HTML", "JavaScript", "Node", "MySQL", "Storj"]
     },
-    "profiles": [
+    {
+      "title": "jGrader",
+      "role": "developer",
+      "url": "https://github.com/gregcarlin/jgrader",
+      "start": "2014-09",
+      "end": "2017-04-24",
+      "repo": "https://github.com/gregcarlin/jgrader",
+      "summary": "Built website that enabled high school teachers to virtually collect and grade computer science assignments.",
+      "highlights": [
+        "Was used by hundreds of teachers with virtually no marketing."
+      ],
+      "keywords": ["HTML", "JavaScript", "Node", "MySQL", "Java"]
+    },
+    {
+      "title": "ProcessWatch",
+      "role": "developer",
+      "url": "http://process.watch/",
+      "start": "2014-12",
+      "end": "2015-10-28",
+      "summary": "Co-developed process.watch, a website that assisted cloud service providers in monitoring server statuses through email-based notifications.",
+      "highlights": [
+        "Sold stake to local cloud service provider."
+      ],
+      "keywords": ["HTML", "JavaScript", "Node", "MongoDB"]
+    }
+  ],
+
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "gregcarlin",
+      "url": "https://github.com/gregcarlin"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "user": "gcarlin",
+      "url": "https://www.linkedin.com/in/gcarlin"
+    }
+  ],
+
+  "employment": {
+    "history": [
       {
-        "network": "Github",
-        "username": "gregcarlin",
-        "url": "https://github.com/gregcarlin"
+        "employer": "Brown University",
+        "url": "http://brown.edu",
+        "position": "Teaching Assistant",
+        "summary": "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017).",
+        "start": "2016-09-03",
+        "end": "2017-12-22",
+        "highlights": [
+          "Created and updated assignments for classes of over 100 students.",
+          "Guided and mentored students through assignments."
+        ]
       },
       {
-        "network": "LinkedIn",
-        "username": "gcarlin",
-        "url": "https://www.linkedin.com/in/gcarlin"
+        "employer": "State of Rhode Island",
+        "url": "http://www.doit.ri.gov/",
+        "position": "Technical Intern",
+        "summary": "Web development intern for Rhode Island's Office of Digital Excellence.",
+        "start": "2016-02-23",
+        "end": "2016-05-19",
+        "keywords": ["HTML", "Drupal", "PHP"],
+        "highlights": [
+          "Sole developer of GetOutdoorsRI, a website encouraging Rhode Islanders to explore local parks commissioned by the governor's office.",
+          "Built on a Drupal site developed by the state of Missouri."
+        ]
+      },
+      {
+        "employer": "SchoolBee",
+        "url": "https://schoolbee.com/",
+        "position": "Software Developer",
+        "summary": "Software developer for a small startup focused on digitizing the K-12 experience.",
+        "start": "2015-05-12",
+        "end": "2015-09-02",
+        "keywords": ["HTML", "Angular", "Node", "MongoDB"],
+        "highlights": [
+          "One of two developers that worked on SchoolBee's directory software, which is used by thousands of students and their families",
+          "Developed an automated view system in Nodejs to improve the speeds of reads from the Mongo database."
+        ]
       }
     ]
   },
-  "work": [
-    {
-      "company": "Brown University",
-      "position": "Teaching Assistant",
-      "website": "http://brown.edu",
-      "startDate": "2016-09-03",
-      "endDate": "2017-12-22",
-      "summary": "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017).",
-      "highlights": [
-        "Created and updated assignments for classes of over 100 students.",
-        "Guided and mentored students through assignments."
-      ]
-    },
-    {
-      "company": "State of Rhode Island",
-      "position": "Technical Intern",
-      "website": "http://www.doit.ri.gov/",
-      "startDate": "2016-02-23",
-      "endDate": "2016-05-19",
-      "summary": "Web development intern for Rhode Island's Office of Digital Excellence",
-      "highlights": [
-        "Sole developer of GetOutdoorsRI, a website encouraging Rhode Islanders to explore local parks commissioned by the governor's office.",
-        "Built on a Drupal site developed by the state of Missouri."
-      ]
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "Brown University",
-      "area": "Computer Science and Economics",
-      "studyType": "Bachelor of Science",
-      "startDate": "2015-09-09",
-      "endDate": "2019-05-26",
-      "gpa": "3.93",
-      "courses": [
-        "CS157 - Design and Analysis of Algorithms",
-        "ENGN1010 - The Entrepreneurial Process",
-        "CS33 - Computer Systems",
-        "CS157 - Artificial Intelligence"
-      ]
-    }
-  ],
-  "awards": [],
-  "publications": [],
-  "skills": [],
+
+  "education": {
+    "summary": "",
+    "level": "degree",
+    "degree": "BSc",
+    "history": [
+      {
+        "institution": "Brown University",
+        "title": "BSc",
+        "url": "http://brown.edu",
+        "start": "2005-09-09",
+        "end": "2019-05-26",
+        "grade": "3.93",
+        "curriculum": [
+          "Design and Analysis of Algorithms",
+          "The Entrepreneurial Process",
+          "Computer Systems",
+          "Artificial Intelligence"
+        ]
+      }
+    ]
+  },
+
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "level": "Native"
     }
-  ],
-  "interests": [],
-  "references": []
+  ]
 }
