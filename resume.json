@@ -133,13 +133,13 @@
   "education": {
     "summary": "",
     "level": "degree",
-    "degree": "BSc",
+    "degree": "Sc.B.",
     "history": [
       {
         "institution": "Brown University",
-        "title": "BSc",
+        "title": "Sc.B. Computer Science and Economics",
         "url": "http://brown.edu",
-        "start": "2005-09-09",
+        "start": "2015-09-09",
         "end": "2019-05-26",
         "grade": "3.93",
         "curriculum": [
