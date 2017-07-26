@@ -6,3 +6,6 @@ pdf: $(FILE) | validate
 
 validate: $(FILE)
 	hackmyresume validate $(FILE)
+
+clean:
+	rm -rf out/*
