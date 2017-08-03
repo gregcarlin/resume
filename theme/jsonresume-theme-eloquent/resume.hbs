@@ -311,11 +311,86 @@
             </div>
           {{/if}}
 
-          {{#if resume.volunteer}}
+          {{#if resume.projects}}
             <div class="detail" id="projects">
               <h3 class="text-uppercase">
                 <a class="anchor-link text-muted" data-scroll href="#projects">
-                  <i aria-hidden="true" class="icon-lg icon-bookmark"></i> Projects
+                  <i aria-hidden="true" class="icon-lg icon-code"></i> Projects
+                  <span class="anchor-icon" aria-hidden="true"></span>
+                </a>
+              </h3>
+
+              <ul class="list-unstyled">
+                {{#each resume.projects}}
+                  <li class="detail-item row" id="{{itemID 'experience' @index ../resume.projects.length}}" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+                    <div class="col-sm-9 detail-item-content">
+                      <a class="anchor-link item-anchor" data-scroll href="#{{itemID 'experience' @index ../resume.projects.length}}">#</a>
+                      <h4>
+                        <strong>{{join roles}}</strong>
+                        {{~#if name~}}
+                          ,&nbsp;
+                          {{#if url}}
+                            <a href="{{url}}"  target="_blank" itemprop="url"><span itemprop="name">{{name}}</span></a>
+                          {{else}}
+                            <span itemprop="name">{{name}}</span>
+                          {{/if}}
+                        {{/if}}
+                      </h4>
+
+                      {{#if startDate}}
+                        <p class="visible-xs-block text-muted">
+                          <small>
+                            <time datetime="{{startDate}}">{{formatMMMMYYYY startDate}}</time>&nbsp;—&nbsp;
+                            {{#if endDate}}
+                              <time datetime="{{endDate}}">{{formatMMMMYYYY endDate}}</time>
+                            {{else}}
+                              <time>Present</time>
+                            {{/if}}
+                            &nbsp;<span class="duration-counter"><i aria-hidden="true" class="icon-clock-o"></i>&nbsp;{{humaneDuration startDate endDate}}</span>
+                          </small>
+                        </p>
+                      {{/if}}
+
+                      <p>{{nl2br summary}}</p>
+
+                      {{#if highlights}}
+                        <ul class="detail-highlights">
+                          {{#each highlights}}
+                            <li>{{.}}</li>
+                          {{/each}}
+                        </ul>
+                      {{/if}}
+                    </div>
+
+                    {{#if startDate}}
+                      <div class="col-sm-3 detail-item-sidebar text-muted text-center hidden-xs">
+                        <p>
+                          <time datetime="{{startDate}}">{{formatMMMMYYYY startDate}}</time>
+                          <br>
+                          &nbsp;—&nbsp;
+                          {{#if endDate}}
+                            <br>
+                            <time datetime="{{endDate}}">{{formatMMMMYYYY endDate}}</time>
+                          {{else}}
+                            <time>Present</time>
+                          {{/if}}
+                        </p>
+                        <p>
+                          <i aria-hidden="true" class="icon-clock-o icon-left"></i>&nbsp;{{humaneDuration startDate endDate}}
+                        </p>
+                      </div>
+                    {{/if}}
+                  </li>
+                {{/each}}
+              </ul>
+            </div>
+          {{/if}}
+
+          {{#if resume.volunteer}}
+            <div class="detail" id="volunteer">
+              <h3 class="text-uppercase">
+                <a class="anchor-link text-muted" data-scroll href="#volunteer">
+                  <i aria-hidden="true" class="icon-lg icon-bookmark"></i> Volunteering
                   <span class="anchor-icon" aria-hidden="true"></span>
                 </a>
               </h3>
