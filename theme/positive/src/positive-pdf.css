@@ -141,3 +141,8 @@ header > span.fa {
   color: #717171;
   font-size: 1.25em;
 }
+
+.keywords {
+  display: block;
+  clear: right;
+}

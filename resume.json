@@ -23,8 +23,8 @@
 
   "location": {
     "address": "",
-    "city": "",
-    "region": "",
+    "city": "Bedford",
+    "region": "NY",
     "code": "",
     "country": "US"
   },
@@ -37,7 +37,7 @@
       "start": "2016-06",
       "end": "2016-08",
       "repo": "https://github.com/gregcarlin/airdrive",
-      "description": "Built proof-of-concept cloud storage website that combined the usability of Dropbox with the security of file sharding and end-to-end encryption.",
+      "summary": "Built proof-of-concept cloud storage website that combined the usability of Dropbox with the security of file sharding and end-to-end encryption.",
       "highlights": [
         "Participated in Breakthrough-Lab, a summer entrepreneurship program at Brown University.",
         "Buit a secure yet easy to use cloud storage solution for conusmers.",
@@ -52,7 +52,7 @@
       "start": "2014-09",
       "end": "2017-04-24",
       "repo": "https://github.com/gregcarlin/jgrader",
-      "description": "Built website that enabled high school teachers to virtually collect and grade computer science assignments.",
+      "summary": "Built website that enabled high school teachers to virtually collect and grade computer science assignments.",
       "highlights": [
         "Was used by hundreds of teachers with virtually no marketing."
       ],
@@ -64,7 +64,7 @@
       "url": "http://process.watch/",
       "start": "2014-12",
       "end": "2015-10-28",
-      "description": "Co-developed process.watch, a website that assisted cloud service providers in monitoring server statuses through email-based notifications.",
+      "summary": "Co-developed process.watch, a website that assisted cloud service providers in monitoring server statuses through email-based notifications.",
       "highlights": [
         "Sold stake to local cloud service provider."
       ],
