@@ -142,7 +142,32 @@ header > span.fa {
   font-size: 1.25em;
 }
 
+/* Additions by Greg Carlin */
+
+main > header {
+  font-size: 12px;
+}
+
+header {
+  font-size: 10px;
+}
+
 .keywords {
   display: block;
   clear: right;
+}
+
+.keywords .keyword {
+  background-color: #c00000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 3px;
+}
+
+section > div {
+  margin-top: 0.3em;
+}
+
+span.fa {
+  display: none;
 }
