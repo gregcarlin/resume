@@ -144,6 +144,10 @@ header > span.fa {
 
 /* Additions by Greg Carlin */
 
+main {
+  font-weight: 300;
+}
+
 main > header {
   font-size: 12px;
 }
