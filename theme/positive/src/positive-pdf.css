@@ -34,7 +34,6 @@ h2 {
 h3 {
   font-size: 1em;
   margin-top: 0;
-  width: 66%;
   float: left;
 }
 
@@ -158,7 +157,7 @@ header {
 
 .keywords {
   display: block;
-  clear: right;
+  float: left;
 }
 
 .keywords .keyword {
