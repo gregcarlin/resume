@@ -98,17 +98,9 @@
                   </a>
                 </li>
               {{/if}}
-              {{#if website}}
-                <li class="basics-item">
-                  <a href="{{website}}" rel="author" target="_blank" itemprop="url">
-                    <span class="icon text-muted"><i aria-hidden="true" class="icon-lg icon-chain"></i></span>
-                    <span class="info">{{sanitizeURL website}}</span>
-                  </a>
-                </li>
-              {{/if}}
 
-              <li class="basics-item hidden-print js-download-trigger" style="display: none;">
-                <a id="js-download" href="#download">
+              <li class="basics-item hidden-print">
+                <a href="/Carlin.Gregory.pdf">
                   <span class="icon text-muted"><i aria-hidden="true" class="icon-lg icon-download"></i></span>
                   <span class="info">Download this resume</span>
                 </a>
@@ -676,8 +668,6 @@
   </div>
 
   <script async defer>
-    var name = '{{normalizeName resume.basics.name}}';
-    window.downloadName = (name ? name + '-' : '') + 'resume.html';
     {{> javascript}}
   </script>
 </body>
