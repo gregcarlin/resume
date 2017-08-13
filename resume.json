@@ -9,7 +9,7 @@
   "info": {
     "label": "Computer Science Student",
     "characterClass": "Programmer",
-    "brief": "I'm currently an undergraduate studying computer science and economics. I'm passionate about using technology to solve real problems, and I love learning new things that help me approach problems in unique ways. As a result, I always have at least one active side project and am in the process of learning at least one new thing, be it a programming language or framework or something else entirely!",
+    "brief": "I'm currently an undergraduate studying computer science and economics. I'm passionate about using technology to solve real problems, and I love learning new things that help me approach problems in unique ways. As a result, I always have at least one active side project and am in the process of learning at least one new thing, be it a programming language, framework, or something else entirely!",
     "image": "http://i.imgur.com/Z9ExG3D.jpg",
     "quote": ""
   },
@@ -37,13 +37,12 @@
       "start": "2016-06",
       "end": "2016-08",
       "repo": "https://github.com/gregcarlin/airdrive",
-      "summary": "Built proof-of-concept cloud storage website that combined the usability of Dropbox with the security of file sharding and end-to-end encryption.",
+      "summary": "Independently built proof-of-concept cloud storage website that combined the usability of Dropbox with the security of file sharding and end-to-end encryption.",
       "highlights": [
-        "Participated in Breakthrough-Lab, a summer entrepreneurship program at Brown University.",
-        "Buit a secure yet easy to use cloud storage solution for conusmers.",
-        "Files were sharded across a network of users' machines."
+        "Files were sharded across a network of users' machines using Storj.",
+        "Participated in Breakthrough-Lab, a summer entrepreneurship program at Brown University."
       ],
-      "keywords": ["HTML", "JavaScript", "Node", "MySQL", "Storj"]
+      "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Storj"]
     },
     {
       "title": "jGrader",
@@ -52,11 +51,11 @@
       "start": "2014-09",
       "end": "2017-04-24",
       "repo": "https://github.com/gregcarlin/jgrader",
-      "summary": "Built website that enabled high school teachers to virtually collect and grade computer science assignments.",
+      "summary": "Built a website that enabled high school teachers to virtually collect, execute, and grade computer science assignments.",
       "highlights": [
         "Was used by hundreds of teachers with virtually no marketing."
       ],
-      "keywords": ["HTML", "JavaScript", "Node", "MySQL", "Java"]
+      "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Java"]
     },
     {
       "title": "ProcessWatch",
@@ -68,7 +67,7 @@
       "highlights": [
         "Sold stake to local cloud service provider."
       ],
-      "keywords": ["HTML", "JavaScript", "Node", "MongoDB"]
+      "keywords": ["HTML", "JavaScript", "Node.js", "MongoDB"]
     }
   ],
 
@@ -90,15 +89,30 @@
   "employment": {
     "history": [
       {
+        "employer": "Education First",
+        "url": "http://www.ef.edu/",
+        "position": "Software Development Intern",
+        "summary": "Software development intern on the tour purchase team at Education First.",
+        "start": "2017-05-22",
+        "end": "2017-07-28",
+        "keywords": ["C#", "ASP.NET", "HTML", "React.js", "JavaScript", "RabbitMq"],
+        "highlights": [
+          "Solved bugs and built features in the internal CRM used by hundreds of salespeople.",
+          "Built an administration tool from scratch to manage the types of available tour customizations.",
+          "Independently built an auditor to draw insights into the customizations customers were requesting."
+        ]
+      },
+      {
         "employer": "Brown University",
         "url": "http://brown.edu",
         "position": "Teaching Assistant",
         "summary": "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017).",
         "start": "2016-09-03",
         "end": "2017-12-22",
+        "keywords": ["Pyret", "Java", "Python"],
         "highlights": [
-          "Created and updated assignments for classes of over 100 students.",
-          "Guided and mentored students through assignments."
+          "Created and updated assignments for classes with hundreds students.",
+          "Guided and mentored students through these assignments on a weekly basis."
         ]
       },
       {
@@ -110,21 +124,21 @@
         "end": "2016-05-19",
         "keywords": ["HTML", "Drupal", "PHP"],
         "highlights": [
-          "Sole developer of GetOutdoorsRI, a website encouraging Rhode Islanders to explore local parks commissioned by the governor's office.",
-          "Built on a Drupal site developed by the state of Missouri."
+          "Sole developer of GetOutdoorsRI, a website encouraging Rhode Islanders to explore local parks.",
+          "Built on a Drupal site originally developed by the state of Missouri."
         ]
       },
       {
         "employer": "SchoolBee",
         "url": "https://schoolbee.com/",
         "position": "Software Developer",
-        "summary": "Software developer for a small startup focused on digitizing the K-12 experience.",
+        "summary": "Third software developer for a startup focused on digitizing the K-12 experience.",
         "start": "2015-05-12",
         "end": "2015-09-02",
-        "keywords": ["HTML", "Angular", "Node", "MongoDB"],
+        "keywords": ["HTML", "Angular.js", "Node.js", "MongoDB"],
         "highlights": [
-          "One of two developers that worked on SchoolBee's directory software, which is used by thousands of students and their families",
-          "Developed an automated view system in Nodejs to improve the speeds of reads from the Mongo database."
+          "Solved bugs and built features in SchoolBee's web directory software, which is used by thousands of students and their families.",
+          "Developed an automated view system to improve the speed of reads from a Mongo database."
         ]
       }
     ]
