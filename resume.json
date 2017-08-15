@@ -51,9 +51,9 @@
       "start": "2014-09",
       "end": "2017-04-24",
       "repo": "https://github.com/gregcarlin/jgrader",
-      "summary": "Built a website that enabled high school teachers to virtually collect, execute, and grade computer science assignments.",
+      "summary": "Led a small team in building a website that enabled high school teachers to virtually collect, execute, and grade computer science assignments written in Java.",
       "highlights": [
-        "Was used by hundreds of teachers with virtually no marketing."
+        "Was used by hundreds of teachers and thousands of students with virtually no marketing."
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Java"]
     },
@@ -125,7 +125,8 @@
         "keywords": ["HTML", "Drupal", "PHP"],
         "highlights": [
           "Sole developer of GetOutdoorsRI, a website encouraging Rhode Islanders to explore local parks.",
-          "Built on a Drupal site originally developed by the state of Missouri."
+          "Built on a Drupal site originally developed by the state of Missouri.",
+          "Project commissioned by the Rhode Island governor."
         ]
       },
       {

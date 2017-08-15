@@ -2,6 +2,7 @@ INPUT=resume.json
 
 pdf: $(INPUT) | validate
 	mkdir -p build
+	cp -r build_static/* build/
 	hackmyresume build $(INPUT) to build/Carlin.Gregory.html --theme theme/jsonresume-theme-eloquent --no-prettify
 	hackmyresume build $(INPUT) to build/Carlin.Gregory.pdf --theme theme/positive
 	mkdir -p docs

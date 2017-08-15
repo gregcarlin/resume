@@ -143,6 +143,15 @@ header > span.fa {
 
 /* Additions by Greg Carlin */
 
+@font-face {
+  font-family: modern;
+  src: url(cmunrm.ttf);
+}
+
+p:not(#contact), ul, h3, .tenure {
+  font-family: modern;
+}
+
 main {
   font-weight: 300;
 }
@@ -158,6 +167,7 @@ header {
 .keywords {
   display: block;
   float: left;
+  margin-top: -4px;
 }
 
 .keywords .keyword {
@@ -166,10 +176,13 @@ header {
   border-radius: 5px;
   padding: 0 3px;
   font-size: 10px;
-  margin-top: -4px;
 }
 
 section > div {
+  margin-top: 0.3em;
+}
+
+section > div:first-of-type {
   margin-top: 0;
 }
 
