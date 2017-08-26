@@ -97,7 +97,7 @@
         "end": "2017-07-28",
         "keywords": ["C#", "ASP.NET", "HTML", "React.js", "JavaScript", "RabbitMq"],
         "highlights": [
-          "Solved bugs and built features in the internal CRM used by hundreds of salespeople.",
+          "Solved bugs and built features in the internal CRM used by over 500 salespeople.",
           "Built an administration tool from scratch to manage the types of available tour customizations.",
           "Independently built an auditor to draw insights into the customizations customers requested."
         ]
@@ -111,7 +111,7 @@
         "end": "2017-12-22",
         "keywords": ["Pyret", "Java", "Python"],
         "highlights": [
-          "Created and updated assignments for classes with hundreds students.",
+          "Created and updated assignments for classes with a cumulative 281 students.",
           "Guided and mentored students through these assignments on a weekly basis."
         ]
       },
@@ -138,7 +138,7 @@
         "end": "2015-09-02",
         "keywords": ["HTML", "Angular.js", "Node.js", "MongoDB"],
         "highlights": [
-          "Solved bugs and built features in SchoolBee's web directory software, which is used by thousands of students and their families.",
+          "Solved bugs and built features in SchoolBee's web directory software, which is used by over 3700 students and their families.",
           "Developed an automated view system to improve the speed of reads from a Mongo database."
         ]
       }
@@ -165,5 +165,20 @@
         ]
       }
     ]
-  }
+  },
+
+  "recognition": [
+    {
+      "category": "honor",
+      "title": "Eagle Scout",
+      "date": "2016-06-16",
+      "summary": "Led volunteers in mapping several local cemeteries; only awarded to 5% of Boy Scouts."
+    },
+    {
+      "category": "honor",
+      "title": "Intel STS Semifinalist",
+      "date": "2015-01-07",
+      "summary": "Researched object oriented databases; 1 of 300 students recognized."
+    }
+  ]
 }
