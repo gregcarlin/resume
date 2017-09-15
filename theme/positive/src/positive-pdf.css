@@ -148,8 +148,17 @@ header > span.fa {
   src: url(cmunrm.ttf);
 }
 
-p:not(#contact), ul, h3, .tenure {
+@font-face {
+  font-family: modern-thick;
+  src: url(cmunbx.ttf);
+}
+
+p:not(#contact), ul, h3, .tenure, .keywords {
   font-family: modern;
+}
+
+.keywords .keyword {
+  font-family: Calibri, 'Open Sans', sans-serif;
 }
 
 main {
@@ -171,7 +180,7 @@ header {
 }
 
 .keywords .keyword {
-  background-color: #c00000;
+  background-color: #0064bf;
   color: #fff;
   border-radius: 5px;
   padding: 0 3px;
@@ -197,4 +206,29 @@ span.fa {
 #recognition h3 > p {
   display: inline;
   font-weight: normal;
+}
+
+a {
+  color: #000 !important;
+}
+
+strong {
+  font-family: modern-thick;
+}
+
+main {
+  padding-top: 0;
+}
+
+main > header {
+  text-align: center;
+}
+
+h1 {
+  float: none;
+}
+
+#contact {
+  float: none;
+  text-align: center;
 }

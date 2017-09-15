@@ -37,10 +37,10 @@
       "start": "2016-06",
       "end": "2016-08",
       "repo": "https://github.com/gregcarlin/airdrive",
-      "summary": "Independently built proof-of-concept cloud storage website that combined the usability of Dropbox with the security of file sharding and end-to-end encryption.",
+      "summary": "Independently built proof-of-concept cloud storage website that combined the usability of Dropbox with the security of file sharding and end-to-end encryption",
       "highlights": [
-        "Files were sharded across a network of users' machines using Storj.",
-        "Participated in Breakthrough-Lab, a summer entrepreneurship program at Brown University."
+        "Files were sharded across a network of users' machines using Storj",
+        "Participated in Breakthrough-Lab, a summer entrepreneurship program at Brown University"
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Storj"]
     },
@@ -51,9 +51,10 @@
       "start": "2014-09",
       "end": "2017-04-24",
       "repo": "https://github.com/gregcarlin/jgrader",
-      "summary": "Led a small team in building a website that enabled high school teachers to virtually collect, execute, and grade computer science assignments written in Java.",
+      "summary": "Led a small team in building a website that enabled high school teachers to virtually collect, execute, and grade computer science assignments written in Java",
       "highlights": [
-        "Was used by hundreds of teachers and thousands of students with virtually no marketing."
+        "Created system capable of securely executing student code in browser with features such as File IO",
+        "Was used by hundreds of teachers and thousands of students with virtually no marketing"
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Java"]
     },
@@ -63,9 +64,10 @@
       "url": "http://process.watch/",
       "start": "2014-12",
       "end": "2015-10-28",
-      "summary": "Co-developed process.watch, a website that assisted cloud service providers in monitoring server statuses through email-based notifications.",
+      "summary": "Co-developed process.watch, a website that assisted cloud service providers in monitoring server statuses through email-based notifications",
       "highlights": [
-        "Sold stake to local cloud service provider."
+        "Aggregated emails sent out by regular backup services into a single dashboard",
+        "Sold stake to local cloud service provider"
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MongoDB"]
     }
@@ -92,54 +94,53 @@
         "employer": "Education First",
         "url": "http://www.ef.edu/",
         "position": "Software Development Intern",
-        "summary": "Software development intern on the tour purchase team at Education First.",
+        "summary": "Software development intern on the tour purchase team at Education First",
         "start": "2017-05-22",
         "end": "2017-07-28",
         "keywords": ["C#", "ASP.NET", "HTML", "React.js", "JavaScript", "RabbitMq"],
         "highlights": [
-          "Solved bugs and built features in the internal CRM used by over 500 salespeople.",
-          "Built an administration tool from scratch to manage the types of available tour customizations.",
-          "Independently built an auditor to draw insights into the customizations customers requested."
+          "Solved bugs and built features in the internal CRM used by over 500 salespeople",
+          "Built an administration tool from scratch to manage the types of available tour customizations",
+          "Independently built an auditor to draw insights into the customizations customers requested"
         ]
       },
       {
         "employer": "Brown University",
         "url": "http://brown.edu",
         "position": "Teaching Assistant",
-        "summary": "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017).",
+        "summary": "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017)",
         "start": "2016-09-03",
-        "end": "2017-12-22",
         "keywords": ["Pyret", "Java", "Python"],
         "highlights": [
-          "Created and updated assignments for classes with a cumulative 281 students.",
-          "Guided and mentored students through these assignments on a weekly basis."
+          "Created and updated assignments for classes with a cumulative 281 students",
+          "Guided and mentored students through these assignments on a weekly basis"
         ]
       },
       {
         "employer": "State of Rhode Island",
         "url": "http://www.doit.ri.gov/",
         "position": "Technical Intern",
-        "summary": "Web development intern for Rhode Island's Office of Digital Excellence.",
+        "summary": "Web development intern for Rhode Island's Office of Digital Excellence",
         "start": "2016-02-23",
         "end": "2016-05-19",
         "keywords": ["HTML", "Drupal", "PHP"],
         "highlights": [
-          "Sole developer of GetOutdoorsRI, a website which encourages Rhode Islanders to explore local parks.",
-          "Built on a Drupal site originally developed by the state of Missouri.",
-          "Project commissioned by the Rhode Island governor."
+          "Sole developer of GetOutdoorsRI, a website that encourages Rhode Islanders to explore local parks",
+          "Project commissioned by the Rhode Island governor",
+          "Built on a Drupal site originally developed by the state of Missouri"
         ]
       },
       {
         "employer": "SchoolBee",
         "url": "https://schoolbee.com/",
         "position": "Software Developer",
-        "summary": "Third software developer for a startup focused on digitizing the K-12 experience.",
+        "summary": "Third software developer for a startup focused on digitizing the K-12 experience",
         "start": "2015-05-12",
         "end": "2015-09-02",
         "keywords": ["HTML", "Angular.js", "Node.js", "MongoDB"],
         "highlights": [
-          "Solved bugs and built features in SchoolBee's web directory software, which is used by over 3700 students and their families.",
-          "Developed an automated view system to improve the speed of reads from a Mongo database."
+          "Solved bugs and built features in SchoolBee's web directory software, which is used by over 3700 students and their families",
+          "Developed an automated view system to improve the speed of reads from a Mongo database"
         ]
       }
     ]
@@ -172,13 +173,13 @@
       "category": "honor",
       "title": "Eagle Scout",
       "date": "2016-06-16",
-      "summary": "Led volunteers in mapping several local cemeteries; only awarded to 5% of Boy Scouts."
+      "summary": "Led volunteers in mapping several local cemeteries; only awarded to 5% of Boy Scouts"
     },
     {
       "category": "honor",
       "title": "Intel STS Semifinalist",
       "date": "2015-01-07",
-      "summary": "Researched object oriented databases; 1 of 300 students recognized."
+      "summary": "Researched object oriented databases; only 300 of 1800 students recognized"
     }
   ]
 }
