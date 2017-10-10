@@ -149,7 +149,7 @@ header > span.fa {
 }
 
 @font-face {
-  font-family: modern-thick;
+  font-family: modernthick;
   src: url(cmunbx.ttf);
 }
 
@@ -177,6 +177,7 @@ header {
   display: block;
   float: left;
   margin-top: -4px;
+  clear: both;
 }
 
 .keywords .keyword {
@@ -216,8 +217,9 @@ a {
   color: #000 !important;
 }
 
-strong {
-  font-family: modern-thick;
+strong > a {
+  /* TODO: this is broken in pdf */
+  font-family: modernthick !important;
 }
 
 main {
