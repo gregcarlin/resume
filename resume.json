@@ -157,12 +157,13 @@
         "url": "http://brown.edu",
         "start": "2015-09-09",
         "end": "2019-05-26",
-        "grade": "3.95 / 4.0",
+        "grade": "3.92 / 4.0",
         "curriculum": [
           "Design and Analysis of Algorithms",
-          "The Entrepreneurial Process",
           "Computer Systems",
-          "Artificial Intelligence"
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Deep Learning"
         ]
       }
     ]
