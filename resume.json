@@ -84,7 +84,7 @@
         "summary": "Backend infrastructure intern on the warehouse data insights team",
         "start": "2018-05-21",
         "end": "2018-08-10",
-        "keywords": ["Java", "Python", "SQL", "Neo4j", "Cypher"],
+        "keywords": ["Java", "Python", "SQL", "Bash", "Presto", "Hive", "Neo4j", "Cypher"],
         "highlights": [
           "Developed a service to store and expose data warehouse dependency information in a graph database",
           "Optimized service until it was capable of ingesting over half a billion records in about an hour",
