@@ -9,7 +9,7 @@
   "info": {
     "label": "Computer Science Student",
     "characterClass": "Programmer",
-    "brief": "I'm currently an undergraduate studying computer science and economics. I'm passionate about using technology to solve real problems, and I love learning new things that help me approach problems in unique ways. As a result, I always have at least one active side project and am in the process of learning at least one new thing, be it a programming language, framework, or something else entirely! When I'm not building something I can usually be found watching terrible movies or poking around in places I don't belong.",
+    "brief": "I'm currently an undergraduate studying computer science and economics. I'm passionate about using technology to solve real problems, and I love learning new things that help me approach problems in unique ways. As a result, I always have at least one active side project and am in the process of learning at least one new thing, be it a programming language, framework, or something else entirely! When I'm not building something I can usually be found watching terrible movies or enjoying a cup of tea.",
     "image": "/headshot.jpg",
     "quote": ""
   },
@@ -57,19 +57,6 @@
         "Was used by hundreds of teachers and thousands of students with virtually no marketing"
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Java"]
-    },
-    {
-      "title": "ProcessWatch",
-      "role": "Developer",
-      "url": "http://process.watch/",
-      "start": "2014-12",
-      "end": "2015-10-28",
-      "summary": "Co-developed process.watch, a website that assisted cloud service providers in monitoring server statuses through email-based notifications",
-      "highlights": [
-        "Aggregated emails sent out by regular backup services into a single dashboard",
-        "Sold stake to local cloud service provider"
-      ],
-      "keywords": ["HTML", "JavaScript", "Node.js", "MongoDB"]
     }
   ],
 
@@ -91,10 +78,37 @@
   "employment": {
     "history": [
       {
+        "employer": "Facebook",
+        "url": "http://facebook.com/",
+        "position": "Software Development Intern",
+        "summary": "Backend infrastructure intern on the warehouse data insights team",
+        "start": "2018-05-21",
+        "end": "2018-08-10",
+        "keywords": ["Java", "Python", "SQL", "Neo4j", "Cypher"],
+        "highlights": [
+          "Developed a service to store and expose data warehouse dependency information in a graph database",
+          "Optimized service until it was capable of ingesting over half a billion records in about an hour",
+          "Service enabled flexible and efficient querying of dependency data by interested users such as data scientists"
+        ]
+      },
+      {
+        "employer": "Brown University",
+        "url": "http://brown.edu",
+        "position": "Teaching Assistant",
+        "summary": "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017, 2018)",
+        "start": "2016-09-03",
+        "keywords": ["Pyret", "Java", "Python"],
+        "highlights": [
+          "Head teaching assistant for Artificial Intelligence: lead 15 other studens in updating and running the course",
+          "Created and updated assignments for classes with a cumulative 281 students",
+          "Guided and mentored students through these assignments on a weekly basis"
+        ]
+      },
+      {
         "employer": "Education First",
         "url": "http://www.ef.edu/",
         "position": "Software Development Intern",
-        "summary": "Software development intern on the tour purchase team at Education First",
+        "summary": "Software development intern on the tour purchase team",
         "start": "2017-05-22",
         "end": "2017-07-28",
         "keywords": ["C#", "ASP.NET", "HTML", "React.js", "JavaScript", "RabbitMq"],
@@ -102,18 +116,6 @@
           "Solved bugs and built features in the internal CRM used by over 500 salespeople",
           "Built an administration tool from scratch to manage the types of available tour customizations",
           "Independently built an auditor to draw insights into the customizations customers requested"
-        ]
-      },
-      {
-        "employer": "Brown University",
-        "url": "http://brown.edu",
-        "position": "Teaching Assistant",
-        "summary": "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017)",
-        "start": "2016-09-03",
-        "keywords": ["Pyret", "Java", "Python"],
-        "highlights": [
-          "Created and updated assignments for classes with a cumulative 281 students",
-          "Guided and mentored students through these assignments on a weekly basis"
         ]
       },
       {
@@ -175,12 +177,6 @@
       "title": "Eagle Scout",
       "date": "2016-06-16",
       "summary": "Led volunteers in mapping several local cemeteries; only awarded to 5% of Boy Scouts"
-    },
-    {
-      "category": "honor",
-      "title": "Intel STS Semifinalist",
-      "date": "2015-01-07",
-      "summary": "Researched object oriented databases; only 300 of 1800 students recognized"
     }
   ]
 }
