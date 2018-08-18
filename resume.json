@@ -32,7 +32,6 @@
   "projects": [
     {
       "title": "airDrive",
-      "role": "Developer",
       "url": "https://github.com/gregcarlin/airdrive",
       "start": "2016-06",
       "end": "2016-08",
@@ -46,7 +45,6 @@
     },
     {
       "title": "jGrader",
-      "role": "Developer",
       "url": "https://github.com/gregcarlin/jgrader",
       "start": "2014-09",
       "end": "2017-04-24",
