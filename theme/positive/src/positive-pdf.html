@@ -43,13 +43,13 @@
           {{#> body-employment }}
           <div>
             <h3>
-              <strong class="employer">
+              <span class="employer">
                 {{#if url }}
                 <a href="{{{ url }}}">{{ employer }}</a>
                 {{else}}
                 {{ employer }}
                 {{/if}}
-              </strong>
+              </span>
               <em>{{ position }}</em>
               </h3>
               <div class="col-right">
@@ -76,16 +76,16 @@
           {{#> body-projects }}
           <div>
           <h3>{{#if role}}<em>{{camelCase role }}</em>,{{/if}}
-          <strong>
+          <span>
             {{#if url}}
             <a href="{{{ url }}}">{{ title }}</a>
             {{else}}
             {{ title }}
             {{/if}}
-          </strong>
+          </span>
           </h3>
           {{#if start}}<span class="tenure">{{dateRange . 'MMM YYYY'}}</span>{{/if}}
-          {{{ summary }}}
+          <p>{{{ summary }}}</p>
           {{> highlights }}
           {{#if keywords}}<span class="keywords">Technology used: {{#each keywords}}<span class="keyword">{{{ . }}}</span> {{/each}}</span>{{/if}}
           </div>
