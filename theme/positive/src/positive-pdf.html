@@ -32,7 +32,36 @@
       {{> section/skills _icon="icon-skills"}}
 
       {{#*inline "icon-employment"}}<span class="fa fa-lg fa-building"></span>{{/inline}}
-      {{> section/employment _icon="icon-employment" }}
+      {{#section "employment"}}
+      <hr>
+      <section id="employment">
+        {{#> header-employment }}
+          {{> header-icon _title="EMPLOYMENT" _section="employment" _hdricon=(lookup . '_icon') }}
+        {{/header-employment}}
+
+        {{#each r.employment.history}}
+          {{#> body-employment }}
+          <div>
+            <h3>
+              <em>{{ position }}</em>,
+              <strong class="employer">
+                {{#if url }}
+                <a href="{{{ url }}}">{{ employer }}</a>
+                {{else}}
+                {{ employer }}
+                {{/if}}
+              </strong>
+              {{ location }}
+              </h3>
+              <span class="tenure">{{dateRange . 'MMM YYYY'}}</span>
+            <p>{{{ summary }}}</p>
+            {{> highlights }}
+            {{#if keywords}}<span class="keywords">Technology used: {{#each keywords}}<span class="keyword">{{{ . }}}</span> {{/each}}</span>{{/if}}
+          </div>
+          {{/body-employment}}
+        {{/each}}
+      </section>
+      {{/section}}
 
       {{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
       {{> section/projects _icon="icon-projects"}}

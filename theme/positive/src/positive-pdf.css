@@ -181,9 +181,6 @@ header {
 }
 
 .keywords .keyword {
-  background-color: #d5ebff;
-  color: #000;
-  border-radius: 5px;
   padding: 0 3px;
   font-size: 10px;
 }
@@ -217,9 +214,13 @@ a {
   color: #000 !important;
 }
 
-strong > a {
+.employer {
+  background-color: #d5ebff;
+  border-radius: 5px;
+  padding-left: 4px;
+  margin-right: 3px;
   /* TODO: this is broken in pdf */
-  font-family: modernthick !important;
+  /*font-family: modernthick !important;*/
 }
 
 main {
@@ -234,6 +235,7 @@ main > header {
 
 h1 {
   float: none;
+  color: #004f96;
 }
 
 h2 {

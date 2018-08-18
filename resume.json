@@ -80,6 +80,7 @@
       {
         "employer": "Facebook",
         "url": "http://facebook.com/",
+        "location": "Cambridge, MA",
         "position": "Software Development Intern",
         "summary": "Backend infrastructure intern on the warehouse data insights team",
         "start": "2018-05-21",
@@ -94,6 +95,7 @@
       {
         "employer": "Brown University",
         "url": "http://brown.edu",
+        "location": "Providence, RI",
         "position": "Teaching Assistant",
         "summary": "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017, 2018)",
         "start": "2016-09-03",
@@ -107,6 +109,7 @@
       {
         "employer": "Education First",
         "url": "http://www.ef.edu/",
+        "location": "Camridge, MA",
         "position": "Software Development Intern",
         "summary": "Software development intern on the tour purchase team",
         "start": "2017-05-22",
@@ -121,6 +124,7 @@
       {
         "employer": "State of Rhode Island",
         "url": "http://www.doit.ri.gov/",
+        "location": "Providence, RI",
         "position": "Technical Intern",
         "summary": "Web development intern for Rhode Island's Office of Digital Excellence",
         "start": "2016-02-23",
@@ -135,6 +139,7 @@
       {
         "employer": "SchoolBee",
         "url": "https://schoolbee.com/",
+        "location": "Rye, NY",
         "position": "Software Developer",
         "summary": "Third software developer for a startup focused on digitizing the K-12 experience",
         "start": "2015-05-12",
