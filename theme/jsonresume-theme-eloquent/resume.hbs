@@ -232,7 +232,7 @@
             <div class="detail" id="experience">
               <h3 class="text-uppercase">
                 <a class="anchor-link text-muted" data-scroll href="#experience">
-                  <i aria-hidden="true" class="icon-lg icon-building"></i> Experience
+                  <i aria-hidden="true" class="icon-lg icon-building"></i> Employment
                   <span class="anchor-icon" aria-hidden="true"></span>
                 </a>
               </h3>
@@ -243,15 +243,14 @@
                     <div class="col-sm-9 detail-item-content">
                       <a class="anchor-link item-anchor" data-scroll href="#{{itemID 'experience' @index ../resume.work.length}}">#</a>
                       <h4>
-                        <strong>{{position}}</strong>
                         {{~#if company~}}
-                          ,&nbsp;
                           {{#if website}}
-                            <a href="{{website}}"  target="_blank" itemprop="url"><span itemprop="name">{{company}}</span></a>
+                            <a href="{{website}}" target="_blank" itemprop="url"><span itemprop="name">{{company}}</span></a>,
                           {{else}}
-                            <span itemprop="name">{{company}}</span>
+                            <span itemprop="name">{{company}}</span>,
                           {{/if}}
                         {{/if}}
+                        <strong>{{position}}</strong>
                       </h4>
 
                       {{#if startDate}}
@@ -318,9 +317,7 @@
                     <div class="col-sm-9 detail-item-content">
                       <a class="anchor-link item-anchor" data-scroll href="#{{itemID 'experience' @index ../resume.projects.length}}">#</a>
                       <h4>
-                        <strong>{{join roles}}</strong>
                         {{~#if name~}}
-                          ,&nbsp;
                           {{#if url}}
                             <a href="{{url}}"  target="_blank" itemprop="url"><span itemprop="name">{{name}}</span></a>
                           {{else}}
