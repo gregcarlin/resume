@@ -31,6 +31,17 @@
 
   "projects": [
     {
+      "title": "SignMeUp",
+      "url": "https://signmeup.cs.brown.edu/",
+      "start": "2017-02-02",
+      "repo": "https://github.com/signmeup/signmeup",
+      "highlights": [
+        "Took over development of a website used to keep track of queues at TA hours in Brown's CS department",
+        "Used by tens of courses and hundreds of TAs and students every semester"
+      ],
+      "keywords": ["HTML", "JavaScript", "Node.js", "MongoDB", "Meteor"]
+    },
+    {
       "title": "airDrive",
       "url": "https://github.com/gregcarlin/airdrive",
       "start": "2016-06",
@@ -42,19 +53,6 @@
         "Participated in Breakthrough-Lab, a summer entrepreneurship program at Brown University"
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Storj"]
-    },
-    {
-      "title": "jGrader",
-      "url": "https://github.com/gregcarlin/jgrader",
-      "start": "2014-09",
-      "end": "2017-04-24",
-      "repo": "https://github.com/gregcarlin/jgrader",
-      "highlights": [
-        "Led a small team in building a website that enabled high school teachers to virtually collect, execute, and grade computer science assignments written in Java",
-        "Created system capable of securely executing student code in browser with features such as File IO",
-        "Was used by hundreds of teachers and thousands of students with virtually no marketing"
-      ],
-      "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Java"]
     }
   ],
 
