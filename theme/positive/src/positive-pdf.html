@@ -64,7 +64,33 @@
       {{/section}}
 
       {{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
-      {{> section/projects _icon="icon-projects"}}
+      {{#section 'projects'}}
+      <hr>
+      <section id="projects">
+        {{#> header-projects }}
+          {{> header-icon _title="PROJECTS" _section="projects" _hdricon=(lookup . '_icon') }}
+        {{/header-projects}}
+        {{#each r.projects }}
+          {{#> body-projects }}
+          <div>
+          <h3>{{#if role}}<em>{{camelCase role }}</em>,{{/if}}
+          <strong>
+            {{#if url}}
+            <a href="{{{ url }}}">{{ title }}</a>
+            {{else}}
+            {{ title }}
+            {{/if}}
+          </strong>
+          </h3>
+          {{#if start}}<span class="tenure">{{dateRange . 'MMM YYYY'}}</span>{{/if}}
+          {{#if keywords}}<span class="keywords">{{#each keywords}}<span class="keyword">{{{ . }}}</span> {{/each}}</span>{{/if}}
+          {{{ summary }}}
+          {{> highlights }}
+          </div>
+          {{/body-projects }}
+        {{/each}}
+      </section>
+      {{/section}}
 
       {{#*inline "icon-affiliation"}}<span class="fa fa-lg fa-share-alt"></span>{{/inline}}
       {{> section/affiliation _icon="icon-affiliation"}}
