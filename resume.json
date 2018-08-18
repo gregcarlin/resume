@@ -36,8 +36,9 @@
       "start": "2017-02-02",
       "repo": "https://github.com/signmeup/signmeup",
       "highlights": [
-        "Took over development of a website used to keep track of queues at TA hours in Brown's CS department",
-        "Used by most Brown CS courses and over 200 students every semester"
+        "Took over development of a website used to keep track of help queues at TA hours",
+        "Reduced downtime incidents from up to ten per semester to zero",
+        "Used by the majority of Brown CS courses and over 200 students every semester"
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MongoDB", "Meteor"]
     },
@@ -85,7 +86,7 @@
           "Backend infrastructure intern on the warehouse data insights team",
           "Developed a service to store and expose data warehouse dependency information in a graph database",
           "Optimized service until it was capable of ingesting over half a billion records in about an hour",
-          "Service enabled flexible and efficient querying of dependency data by interested users such as data scientists"
+          "Service enabled flexible and efficient querying of dependency data via the Cypher query language by interested users such as data scientists"
         ]
       },
       {
@@ -165,7 +166,10 @@
           "Computer Systems",
           "Artificial Intelligence",
           "Machine Learning",
-          "Deep Learning"
+          "Deep Learning",
+          "Algorithmic Game Theory",
+          "Computer Graphics",
+          "Programming Languages"
         ]
       }
     ]

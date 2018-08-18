@@ -26,7 +26,25 @@
       -->}}
 
       {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
-      {{> section/education _icon="icon-education"}}
+      {{#section "education"}}
+      <hr>
+      <section id="education">
+        {{#> header-education }}
+          {{> header-icon _title="EDUCATION" _section="education" _hdricon=(lookup . '_icon') }}
+        {{/header-education}}
+        {{#each r.education.history}}
+          {{#> body-education }}
+          <div>
+            <h3><span class="pill pill-padded">{{{ institution }}}</span>{{#if title}}<em>{{{ title }}}</em>{{/if}}{{#if grade}}, GPA: {{{ grade }}}{{/if}}</h3>
+            <span class="tenure">{{dateRange . 'MMM YYYY'}}</span>
+            {{{ summary }}}
+            {{> highlights }}
+            {{#if curriculum}}<span class="keywords">Selected courses: {{#each curriculum}}<span class="keyword">{{{ . }}}</span> {{/each}}</span>{{/if}}
+          </div>
+          {{/body-education}}
+        {{/each}}
+      </section>
+      {{/section}}
 
       {{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
       {{> section/skills _icon="icon-skills"}}
@@ -43,7 +61,7 @@
           {{#> body-employment }}
           <div>
             <h3>
-              <span class="employer">
+              <span class="pill">
                 {{#if url }}
                 <a href="{{{ url }}}">{{ employer }}</a>
                 {{else}}
@@ -76,7 +94,7 @@
           {{#> body-projects }}
           <div>
           <h3>{{#if role}}<em>{{camelCase role }}</em>,{{/if}}
-          <span>
+          <span class="pill pill-padded">
             {{#if url}}
             <a href="{{{ url }}}">{{ title }}</a>
             {{else}}
