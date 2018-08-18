@@ -153,7 +153,7 @@ header > span.fa {
   src: url(cmunbx.ttf);
 }
 
-p:not(#contact), ul, h3, .tenure, .keywords {
+p:not(#contact), ul, h3, .tenure, .keywords, .col-right {
   font-family: modern;
 }
 
@@ -245,4 +245,17 @@ h2 {
 #contact {
   float: none;
   text-align: center;
+}
+
+.col-right {
+  float: right;
+  text-align: right;
+}
+
+.col-right > span {
+  display: block;
+}
+
+section > div p {
+  clear: left;
 }

@@ -51,9 +51,11 @@
                 {{/if}}
               </strong>
               <em>{{ position }}</em>
-              {{ location }}
               </h3>
-              <span class="tenure">{{dateRange . 'MMM YYYY'}}</span>
+              <div class="col-right">
+                <span>{{dateRange . 'MMM YYYY'}}</span>
+                <span>{{ location }}</span>
+              </div>
             <p>{{{ summary }}}</p>
             {{> highlights }}
             {{#if keywords}}<span class="keywords">Technology used: {{#each keywords}}<span class="keyword">{{{ . }}}</span> {{/each}}</span>{{/if}}
