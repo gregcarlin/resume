@@ -157,10 +157,6 @@ p:not(#contact), ul, h3, .tenure, .keywords, .col-right {
   font-family: modern;
 }
 
-.keywords .keyword {
-  font-family: Calibri, 'Open Sans', sans-serif;
-}
-
 main {
   font-weight: 300;
 }
@@ -180,9 +176,12 @@ header {
   clear: both;
 }
 
-.keywords .keyword {
-  padding: 0 3px;
-  font-size: 10px;
+.keywords .keyword::after {
+  content: ",";
+}
+
+.keywords .keyword:last-of-type::after {
+  content: none;
 }
 
 section {
