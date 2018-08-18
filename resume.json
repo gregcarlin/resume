@@ -37,7 +37,7 @@
       "repo": "https://github.com/signmeup/signmeup",
       "highlights": [
         "Took over development of a website used to keep track of queues at TA hours in Brown's CS department",
-        "Used by tens of courses and hundreds of TAs and students every semester"
+        "Used by most Brown CS courses and over 200 students every semester"
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MongoDB", "Meteor"]
     },
@@ -97,7 +97,7 @@
         "keywords": ["Pyret", "Java", "Python"],
         "highlights": [
           "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017, 2018)",
-          "Head teaching assistant for Artificial Intelligence: lead 15 other students in updating and running the course",
+          "Head teaching assistant for AI (Fall 2018): lead 15 other students in updating and running the course",
           "Created and updated assignments for classes with a cumulative 385 students",
           "Guided and mentored students through these assignments on a weekly basis"
         ]
