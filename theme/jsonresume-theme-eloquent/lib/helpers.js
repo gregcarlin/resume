@@ -79,6 +79,5 @@ module.exports = {
         text = Handlebars.escapeExpression(text || '');
         text = text.substring(0, length);
         return new Handlebars.SafeString(text);
-    },
-    join: (...args) => args.slice(0, -1).join(', ')
+    }
 };
