@@ -7,9 +7,9 @@
   },
 
   "info": {
-    "label": "Computer Science Student",
+    "label": "Backend Software Engineer",
     "characterClass": "Programmer",
-    "brief": "I'm currently an undergraduate studying computer science and economics. I'm passionate about using technology to solve real problems, and I love learning new things that help me approach problems in unique ways. As a result, I always have at least one active side project and am in the process of learning at least one new thing, be it a programming language, framework, or something else entirely! When I'm not building something I can usually be found watching terrible movies or enjoying a cup of tea.",
+    "brief": "I'm a backend software engineer who enjoys solving problems at scale.",
     "image": "/headshot.jpg",
     "quote": ""
   },
@@ -66,7 +66,7 @@
         "employer": "Facebook",
         "url": "http://facebook.com/",
         "location": "Cambridge, MA",
-        "position": "Software Development Intern",
+        "position": "Software Engineer Intern",
         "start": "2018-05-21",
         "end": "2018-08-10",
         "keywords": ["Java", "Python", "SQL", "Bash", "Presto", "Hive", "Neo4j", "Cypher"],
