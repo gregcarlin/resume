@@ -1,6 +1,6 @@
 html, body, main, section, header, ul, p, h1, h2, h3 {
   font-family: Calibri, 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0; padding: 0;
   display: block;
 }
@@ -20,7 +20,6 @@ a:hover {
 
 h1 {
   text-transform: uppercase;
-  font-size:
 }
 
 h2 {
@@ -108,7 +107,7 @@ h1 {
 }
 
 h1, h2, .label {
-  font-size: 2.5em;
+  font-size: 3.0em;
   text-transform: uppercase;
   font-weight: 300;
   font-family: 'Open Sans', 'Segoe UI', sans-serif;
