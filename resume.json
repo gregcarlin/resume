@@ -9,7 +9,7 @@
   "info": {
     "label": "Backend Software Engineer",
     "characterClass": "Programmer",
-    "brief": "I'm a backend software engineer who enjoys solving problems at scale.",
+    "brief": "I'm a backend software engineer who enjoys solving problems at scale and cares deeply about reliability.",
     "image": "/headshot.jpg",
     "quote": ""
   },
@@ -63,6 +63,21 @@
   "employment": {
     "history": [
       {
+        "employer": "Meta",
+        "url": "http://meta.com/",
+        "location": "Cambridge, MA",
+        "position": "Software Engineer",
+        "start": "2019-08-05",
+        "keywords": ["Java", "Python", "SQL", "MySQL", "Bash", "Presto", "Spark", "Hive", "C++"],
+        "highlights": [
+          "Worked on data flow tracking service used to comply with privacy focused government regulations and avoid billions of dollars in fines",
+          "Designed new scalable MySQL schema and topology that supports 5x the existing workload, with pathways for future growth",
+          "Designed and implemented new data ingestion process chosen by all nine new lineage producers to send data",
+          "Designed and implemented new subsystem to make lineage available offline for privacy use cases that made the data available after just three hours instead of twelve, and with increased reliability",
+          "Designed metrics to measure parity of new system against pre-existing system and led #1 team goal of driving these metrics up to 99.9%"
+        ]
+      },
+      {
         "employer": "Facebook",
         "url": "http://facebook.com/",
         "location": "Cambridge, MA",
@@ -83,6 +98,7 @@
         "location": "Providence, RI",
         "position": "Teaching Assistant",
         "start": "2016-09-03",
+        "end": "2018-12-31",
         "keywords": ["Pyret", "Java", "Python"],
         "highlights": [
           "Teaching assistant for Accelerated Introduction to Computer Science (Fall 2016), Introduction to Software Engineering (Spring 2017), and Artificial Intelligence (Fall 2017, 2018)",
@@ -118,20 +134,6 @@
           "Sole developer of GetOutdoorsRI, a website that encourages Rhode Islanders to explore local parks",
           "Project commissioned by the Rhode Island governor",
           "Built on a Drupal site originally developed by the state of Missouri"
-        ]
-      },
-      {
-        "employer": "SchoolBee",
-        "url": "https://schoolbee.com/",
-        "location": "Rye, NY",
-        "position": "Software Developer",
-        "start": "2015-05-12",
-        "end": "2015-09-02",
-        "keywords": ["HTML", "Angular.js", "Node.js", "MongoDB"],
-        "highlights": [
-          "Third software developer for a startup focused on digitizing the K-12 experience",
-          "Solved bugs and built features in SchoolBee's web directory software, which is used by over 3700 students and their families",
-          "Developed an automated view system to improve the speed of reads from a Mongo database"
         ]
       }
     ]

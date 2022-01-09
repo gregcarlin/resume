@@ -8,7 +8,8 @@ pdf: $(INPUT) | validate
 	hackmyresume build $(INPUT) to build/Carlin.Gregory.txt
 	mkdir -p docs
 	cp build/Carlin.Gregory.html docs/index.html
-	pdftk build/Carlin.Gregory.pdf cat 1 output docs/Carlin.Gregory.pdf
+	#pdftk build/Carlin.Gregory.pdf cat 1 output docs/Carlin.Gregory.pdf
+	cp build/Carlin.Gregory.pdf docs/Carlin.Gregory.pdf
 
 validate: $(INPUT)
 	hackmyresume validate $(INPUT)

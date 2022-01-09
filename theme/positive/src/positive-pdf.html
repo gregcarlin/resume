@@ -25,30 +25,6 @@
         icon into the global partial. For this theme, we're using Font Awesome.
       -->}}
 
-      {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
-      {{#section "education"}}
-      <hr>
-      <section id="education">
-        {{#> header-education }}
-          {{> header-icon _title="EDUCATION" _section="education" _hdricon=(lookup . '_icon') }}
-        {{/header-education}}
-        {{#each r.education.history}}
-          {{#> body-education }}
-          <div>
-            <h3><span class="pill pill-padded">{{{ institution }}}</span>{{#if title}}<em>{{{ title }}}</em>{{/if}}{{#if grade}}, GPA: {{{ grade }}}{{/if}}</h3>
-            <span class="tenure">{{dateRange . 'MMM YYYY'}}</span>
-            {{{ summary }}}
-            {{> highlights }}
-            {{#if curriculum}}<span class="keywords">Selected courses: {{#each curriculum}}<span class="keyword">{{{ . }}}</span> {{/each}}</span>{{/if}}
-          </div>
-          {{/body-education}}
-        {{/each}}
-      </section>
-      {{/section}}
-
-      {{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
-      {{> section/skills _icon="icon-skills"}}
-
       {{#*inline "icon-employment"}}<span class="fa fa-lg fa-building"></span>{{/inline}}
       {{#section "employment"}}
       <hr>
@@ -82,6 +58,30 @@
         {{/each}}
       </section>
       {{/section}}
+
+      {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
+      {{#section "education"}}
+      <hr>
+      <section id="education">
+        {{#> header-education }}
+          {{> header-icon _title="EDUCATION" _section="education" _hdricon=(lookup . '_icon') }}
+        {{/header-education}}
+        {{#each r.education.history}}
+          {{#> body-education }}
+          <div>
+            <h3><span class="pill pill-padded">{{{ institution }}}</span>{{#if title}}<em>{{{ title }}}</em>{{/if}}{{#if grade}}, GPA: {{{ grade }}}{{/if}}</h3>
+            <span class="tenure">{{dateRange . 'MMM YYYY'}}</span>
+            {{{ summary }}}
+            {{> highlights }}
+            {{#if curriculum}}<span class="keywords">Selected courses: {{#each curriculum}}<span class="keyword">{{{ . }}}</span> {{/each}}</span>{{/if}}
+          </div>
+          {{/body-education}}
+        {{/each}}
+      </section>
+      {{/section}}
+
+      {{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
+      {{> section/skills _icon="icon-skills"}}
 
       {{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
       {{#section 'projects'}}
