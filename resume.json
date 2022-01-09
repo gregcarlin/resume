@@ -23,8 +23,8 @@
 
   "location": {
     "address": "",
-    "city": "Bedford",
-    "region": "NY",
+    "city": "Providence",
+    "region": "RI",
     "code": "",
     "country": "US"
   },
@@ -34,6 +34,7 @@
       "title": "SignMeUp",
       "url": "https://signmeup.cs.brown.edu/",
       "start": "2017-02-02",
+      "end": "2019-05-25",
       "repo": "https://github.com/signmeup/signmeup",
       "highlights": [
         "Took over development of a website used to keep track of help queues at TA hours",
@@ -41,19 +42,6 @@
         "Used by the majority of Brown CS courses and over 200 students every semester"
       ],
       "keywords": ["HTML", "JavaScript", "Node.js", "MongoDB", "Meteor"]
-    },
-    {
-      "title": "airDrive",
-      "url": "https://github.com/gregcarlin/airdrive",
-      "start": "2016-06",
-      "end": "2016-08",
-      "repo": "https://github.com/gregcarlin/airdrive",
-      "highlights": [
-        "Independently built proof-of-concept cloud storage website that combined the usability of Dropbox with the security of file sharding and end-to-end encryption",
-        "Files were sharded across a network of users' machines using Storj",
-        "Participated in Breakthrough-Lab, a summer entrepreneurship program at Brown University"
-      ],
-      "keywords": ["HTML", "JavaScript", "Node.js", "MySQL", "Storj"]
     }
   ],
 
@@ -173,14 +161,5 @@
         ]
       }
     ]
-  },
-
-  "recognition": [
-    {
-      "category": "honor",
-      "title": "Eagle Scout",
-      "date": "2016-06-16",
-      "summary": "Led volunteers in mapping several local cemeteries; only awarded to 5% of Boy Scouts"
-    }
-  ]
+  }
 }

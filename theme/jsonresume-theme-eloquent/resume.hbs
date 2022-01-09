@@ -75,7 +75,7 @@
                       <span class="icon text-muted"><i aria-hidden="true" class="icon-lg icon-location-arrow"></i></span>
                       <span class="info">
                         {{#if address}}<span itemprop="streetAddress">{{address}},</span>{{/if}}
-                        {{#if city}}<span itemprop="addressLocality">{{city}},</span>{{/if}}
+                        {{#if city}}<span itemprop="addressLocality">{{city}}</span>{{/if}}
                         {{#if postalCode}}<span itemprop="postalCode">{{postalCode}},</span>{{/if}}
                         {{#if region}}<span itemprop="addressRegion">{{region}},</span>{{/if}}
                         {{#if countryCode}}<span itemprop="addressCountry">{{countryCode}}</span>{{/if}}
@@ -223,6 +223,80 @@
             </div>
           {{/if}}
 
+          {{#if resume.education}}
+            <div class="detail" id="education">
+              <h3 class="text-uppercase">
+                <a class="anchor-link text-muted" href="#education">
+                  <i aria-hidden="true" class="icon-lg icon-graduation-cap"></i> Education
+                  <span class="anchor-icon" aria-hidden="true"></span>
+                </a>
+              </h3>
+
+              <ul class="list-unstyled">
+                {{#each resume.education}}
+                  <li class="detail-item row" id="{{itemID 'education' @index ../resume.education.length}}" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+                    <div class="col-sm-9 detail-item-content">
+                      <a class="anchor-link item-anchor" href="#{{itemID 'education' @index ../resume.education.length}}">#</a>
+                      <h4>
+                        <strong>{{area}}</strong>
+                        {{~#if studyType~}}
+                          ,&nbsp;<span>{{studyType}}</span>
+                        {{/if}}
+                      </h4>
+
+                      {{#if startDate}}
+                        <p class="visible-xs-block text-muted">
+                          <small>
+                            <time datetime="{{startDate}}">{{formatYYYY startDate}}</time>
+                            &nbsp;—&nbsp;
+                            {{#if endDate}}
+                              <time datetime="{{endDate}}">{{formatYYYY endDate}}</time>
+                            {{else}}
+                              <time>Present</time>
+                            {{/if}}
+                            &nbsp;<span class="duration-counter"><i aria-hidden="true" class="icon-clock-o"></i>&nbsp;{{humaneDuration startDate endDate}}</span>
+                          </small>
+                        </p>
+                      {{/if}}
+
+                      {{#if institution}}
+                        <p class="text-muted">
+                          <span itemprop="name">{{institution}}</span>
+                          {{~#if gpa~}}
+                            ,&nbsp;GPA: {{gpa}}
+                          {{/if}}
+                        </p>
+                      {{/if}}
+
+                      {{#if courses}}
+                        <ul class="list-inline labels">
+                          {{#courses}}<li class="label label-keyword">{{.}}</li>{{/courses}}
+                        </ul>
+                      {{/if}}
+                    </div>
+
+                    {{#if startDate}}
+                      <div class="col-sm-3 detail-item-sidebar text-muted text-center hidden-xs">
+                        <p>
+                          <time datetime="{{startDate}}">{{formatYYYY startDate}}</time>
+                          &nbsp;—&nbsp;
+                          {{#if endDate}}
+                            <time datetime="{{endDate}}">{{formatYYYY endDate}}</time>
+                          {{else}}
+                            <time>Present</time>
+                          {{/if}}
+                        </p>
+                        <p>
+                          <i aria-hidden="true" class="icon-clock-o icon-left"></i>&nbsp;{{humaneDuration startDate endDate}}
+                        </p>
+                      </div>
+                    {{/if}}
+                  </li>
+                {{/each}}
+              </ul>
+            </div>
+          {{/if}}
+
           {{#if resume.projects}}
             <div class="detail" id="projects">
               <h3 class="text-uppercase">
@@ -355,80 +429,6 @@
                           {{#if endDate}}
                             <br>
                             <time datetime="{{endDate}}">{{formatMMMMYYYY endDate}}</time>
-                          {{else}}
-                            <time>Present</time>
-                          {{/if}}
-                        </p>
-                        <p>
-                          <i aria-hidden="true" class="icon-clock-o icon-left"></i>&nbsp;{{humaneDuration startDate endDate}}
-                        </p>
-                      </div>
-                    {{/if}}
-                  </li>
-                {{/each}}
-              </ul>
-            </div>
-          {{/if}}
-
-          {{#if resume.education}}
-            <div class="detail" id="education">
-              <h3 class="text-uppercase">
-                <a class="anchor-link text-muted" href="#education">
-                  <i aria-hidden="true" class="icon-lg icon-graduation-cap"></i> Education
-                  <span class="anchor-icon" aria-hidden="true"></span>
-                </a>
-              </h3>
-
-              <ul class="list-unstyled">
-                {{#each resume.education}}
-                  <li class="detail-item row" id="{{itemID 'education' @index ../resume.education.length}}" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-                    <div class="col-sm-9 detail-item-content">
-                      <a class="anchor-link item-anchor" href="#{{itemID 'education' @index ../resume.education.length}}">#</a>
-                      <h4>
-                        <strong>{{area}}</strong>
-                        {{~#if studyType~}}
-                          ,&nbsp;<span>{{studyType}}</span>
-                        {{/if}}
-                      </h4>
-
-                      {{#if startDate}}
-                        <p class="visible-xs-block text-muted">
-                          <small>
-                            <time datetime="{{startDate}}">{{formatYYYY startDate}}</time>
-                            &nbsp;—&nbsp;
-                            {{#if endDate}}
-                              <time datetime="{{endDate}}">{{formatYYYY endDate}}</time>
-                            {{else}}
-                              <time>Present</time>
-                            {{/if}}
-                            &nbsp;<span class="duration-counter"><i aria-hidden="true" class="icon-clock-o"></i>&nbsp;{{humaneDuration startDate endDate}}</span>
-                          </small>
-                        </p>
-                      {{/if}}
-
-                      {{#if institution}}
-                        <p class="text-muted">
-                          <span itemprop="name">{{institution}}</span>
-                          {{~#if gpa~}}
-                            ,&nbsp;GPA: {{gpa}}
-                          {{/if}}
-                        </p>
-                      {{/if}}
-
-                      {{#if courses}}
-                        <ul class="list-inline labels">
-                          {{#courses}}<li class="label label-keyword">{{.}}</li>{{/courses}}
-                        </ul>
-                      {{/if}}
-                    </div>
-
-                    {{#if startDate}}
-                      <div class="col-sm-3 detail-item-sidebar text-muted text-center hidden-xs">
-                        <p>
-                          <time datetime="{{startDate}}">{{formatYYYY startDate}}</time>
-                          &nbsp;—&nbsp;
-                          {{#if endDate}}
-                            <time datetime="{{endDate}}">{{formatYYYY endDate}}</time>
                           {{else}}
                             <time>Present</time>
                           {{/if}}
